@@ -1,0 +1,26 @@
+position,ref,alt,heteroplasmy,variant_type,source,gene,complex,function,disease,mitomap_status,severity,heteroplasmy_threshold,in_mitomap,above_threshold
+73,A,G,1.0,haplogroup,Haplogroup H defining,MT-DLOOP2,D-loop,D-loop region — hypervariable,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+263,A,G,1.0,haplogroup,Haplogroup H defining,MT-DLOOP2,D-loop,D-loop region — hypervariable,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+750,A,G,1.0,haplogroup,Haplogroup H defining,MT-RNR1,rRNA,12S ribosomal RNA — translation,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+1438,A,G,1.0,haplogroup,Haplogroup H defining,MT-RNR1,rRNA,12S ribosomal RNA — translation,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+1555,A,G,1.0,pathogenic,MitoMap confirmed,MT-RNR1,rRNA,12S ribosomal RNA — translation,Aminoglycoside-induced deafness,Confirmed,Mild,0.0,Yes,True
+3243,A,G,0.72,pathogenic,MitoMap confirmed,MT-TL1,tRNA,tRNA-Leu(UUR) — MELAS hotspot,MELAS syndrome,Confirmed,Severe,60.0,Yes,True
+3256,C,T,0.68,probable_pathogenic,MitoMap probable,MT-TL1,tRNA,tRNA-Leu(UUR) — MELAS hotspot,MELAS — secondary mutation,Probable,Moderate,70.0,Yes,False
+3460,G,A,1.0,pathogenic,MitoMap confirmed,MT-ND1,Complex I,NADH dehydrogenase subunit 1,LHON primary mutation,Confirmed,Moderate,100.0,Yes,True
+4216,T,C,1.0,probable_pathogenic,MitoMap probable,MT-ND1,Complex I,NADH dehydrogenase subunit 1,LHON secondary — with 11778,Probable,Mild,100.0,Yes,True
+4769,A,G,1.0,haplogroup,Haplogroup H defining,MT-ND2,Complex I,NADH dehydrogenase subunit 2,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+6062,G,A,0.34,private,Novel variant,MT-CO1,Complex IV,Cytochrome c oxidase subunit 1,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+7028,C,T,1.0,haplogroup,Haplogroup H defining,MT-CO1,Complex IV,Cytochrome c oxidase subunit 1,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+8344,A,G,0.91,pathogenic,MitoMap confirmed,MT-TK,tRNA,tRNA-Lys — MERRF hotspot,MERRF syndrome,Confirmed,Severe,85.0,Yes,True
+8860,A,G,1.0,haplogroup,Haplogroup H defining,MT-ATP6,Complex V,ATP synthase subunit 6,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+8993,T,G,0.94,pathogenic,MitoMap confirmed,MT-ATP6,Complex V,ATP synthase subunit 6,Different allele at known disease position,Review,Unknown,,Partial,False
+9176,T,C,0.88,pathogenic,MitoMap confirmed,MT-ATP6,Complex V,ATP synthase subunit 6,Leigh syndrome,Confirmed,Severe,95.0,Yes,False
+10197,G,A,0.62,VUS,MitoMap possible,MT-ND3,Complex I,NADH dehydrogenase subunit 3,MELAS / Leigh — rare mutation,Possible,Moderate,70.0,Yes,False
+11778,G,A,1.0,pathogenic,MitoMap confirmed,MT-ND4,Complex I,NADH dehydrogenase subunit 4,LHON — Leber hereditary optic neuropathy,Confirmed,Moderate,100.0,Yes,True
+12315,G,A,0.82,probable_pathogenic,MitoMap probable,MT-DLOOP,D-loop,Non-coding control region,Cardiomyopathy / hearing loss,Probable,Mild,80.0,Yes,True
+13513,G,A,0.78,pathogenic,MitoMap confirmed,MT-ND5,Complex I,NADH dehydrogenase subunit 5,MELAS / Leigh overlap,Confirmed,Severe,80.0,Yes,False
+14832,C,T,0.18,private,Novel variant — low heteroplasmy,MT-CYB,Complex III,Cytochrome b — electron transfer,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+15257,G,A,0.88,probable_pathogenic,MitoMap probable,MT-CYB,Complex III,Cytochrome b — electron transfer,Exercise intolerance / myopathy,Probable,Mild,90.0,Yes,False
+15326,A,G,1.0,haplogroup,Haplogroup H defining,MT-CYB,Complex III,Cytochrome b — electron transfer,Not in MitoMap — novel variant,Novel,Unknown,,No,False
+15885,T,C,0.71,VUS,MitoMap possible,MT-CYB,Complex III,Cytochrome b — electron transfer,Cytochrome b deficiency,Probable,Moderate,85.0,Yes,False
+16519,T,C,1.0,benign,Common benign polymorphism,MT-DLOOP,D-loop,Displacement loop — replication origin,Not in MitoMap — novel variant,Novel,Unknown,,No,False

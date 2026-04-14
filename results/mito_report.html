@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<title>Mitochondrial Variant Report — Farhana Sayed</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#f4f6fb;color:#1a1a2e}
+.hdr{background:linear-gradient(135deg,#1b4332,#081c15);
+      color:white;padding:36px 48px}
+.hdr h1{font-size:21px;margin-bottom:6px}
+.hdr p{font-size:13px;opacity:.78}
+.body{padding:28px 48px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);
+        gap:12px;margin-bottom:24px}
+.card{background:white;border-radius:10px;padding:16px;
+       text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card .num{font-size:28px;font-weight:700}
+.card .lbl{font-size:10px;color:#888;text-transform:uppercase;
+            letter-spacing:.4px;margin-top:4px}
+.hg-box{background:white;border-radius:10px;padding:20px;
+          border-left:5px solid #1b4332;margin-bottom:20px;
+          box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.hg-box h3{font-size:15px;color:#1b4332;margin-bottom:6px}
+.hg-box p{font-size:13px;color:#555;line-height:1.6}
+h2{font-size:15px;color:#1b4332;border-left:4px solid #52b788;
+    padding-left:12px;margin:22px 0 12px}
+img{width:100%;border-radius:10px;
+     box-shadow:0 2px 10px rgba(0,0,0,.08);margin-bottom:22px}
+table{width:100%;border-collapse:collapse;font-size:11.5px;
+       background:white;border-radius:8px;overflow:hidden;
+       box-shadow:0 2px 8px rgba(0,0,0,.06)}
+th{background:#1b4332;color:white;padding:9px 8px;
+    text-align:left;font-size:11px}
+td{padding:7px 8px;border-bottom:1px solid #eee;vertical-align:middle}
+tr:nth-child(even){background:#f8f9fd}
+tr:hover{background:#eef2ff}
+code{font-size:11px;background:#eef;padding:1px 5px;border-radius:3px}
+.ref{background:white;border-radius:8px;padding:18px;
+      border-left:4px solid #1b4332;margin-top:16px;
+      font-size:12.5px;line-height:1.8;color:#333}
+.footer{background:#1b4332;color:white;text-align:center;
+         padding:16px;font-size:12px;margin-top:22px}
+</style></head><body>
+<div class="hdr">
+  <h1>Mitochondrial Genome Variant Analysis Report</h1>
+  <p>Genome: chrM (16,569 bp, NC_012920.1) &nbsp;|&nbsp;
+     Database: MitoMap &nbsp;|&nbsp;
+     Assembly: GRCh38 &nbsp;|&nbsp;
+     Generated: 14 Apr 2026 07:00</p>
+  <p style="margin-top:5px">Author: Farhana Sayed &nbsp;|&nbsp;
+     B.Tech Bioinformatics &amp; Data Science, D.Y. Patil
+     &nbsp;|&nbsp; Module 3 of 3 — Clinical Variant Interpreter</p>
+</div>
+<div class="body">
+  <div class="cards">
+    <div class="card" style="border-top:4px solid #c0392b">
+      <div class="num" style="color:#c0392b">8</div>
+      <div class="lbl">Confirmed pathogenic</div>
+    </div>
+    <div class="card" style="border-top:4px solid #e67e22">
+      <div class="num" style="color:#e67e22">4</div>
+      <div class="lbl">Probable pathogenic</div>
+    </div>
+    <div class="card" style="border-top:4px solid #f1c40f">
+      <div class="num" style="color:#c8a000">2</div>
+      <div class="lbl">VUS</div>
+    </div>
+    <div class="card" style="border-top:4px solid #c0392b">
+      <div class="num" style="color:#c0392b">7</div>
+      <div class="lbl">Above disease threshold</div>
+    </div>
+  </div>
+
+  <div class="hg-box">
+    <h3>Haplogroup Assignment: L0</h3>
+    <p>Oldest human haplogroup — sub-Saharan African origin.</p>
+  </div>
+
+  <h2>Variant Summary Plots</h2>
+  <img src="mito_plots.png" alt="Mitochondrial Variant Plots">
+
+  <h2>All Mitochondrial Variants (25 total)</h2>
+  <table>
+    <thead><tr>
+      <th>Variant (HGVS)</th><th>Gene</th><th>OXPHOS Complex</th>
+      <th>Heteroplasmy</th><th>Disease threshold</th>
+      <th>Above threshold</th><th>Type</th>
+      <th>MitoMap status</th><th>Disease association</th><th>Severity</th>
+    </tr></thead>
+    <tbody><tr>
+          <td><code>m.73A>G</code></td>
+          <td><strong>MT-DLOOP2</strong></td>
+          <td>D-loop</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">HAPLOGROUP</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.263A>G</code></td>
+          <td><strong>MT-DLOOP2</strong></td>
+          <td>D-loop</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">HAPLOGROUP</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.750A>G</code></td>
+          <td><strong>MT-RNR1</strong></td>
+          <td>rRNA</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">HAPLOGROUP</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.1438A>G</code></td>
+          <td><strong>MT-RNR1</strong></td>
+          <td>rRNA</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">HAPLOGROUP</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.1555A>G</code></td>
+          <td><strong>MT-RNR1</strong></td>
+          <td>rRNA</td>
+          <td>100.0%</td>
+          <td>N/A</td>
+          <td><span style="color:#c0392b;font-weight:bold">YES ⚠</span></td>
+          <td><span style="background:#c0392b;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PATHOGENIC</span></td>
+          <td><span style="background:#2980b9;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Confirmed</span></td>
+          <td style="font-size:11px">Aminoglycoside-induced deafness</td>
+          <td style="font-size:10px">Mild</td>
+        </tr><tr>
+          <td><code>m.3243A>G</code></td>
+          <td><strong>MT-TL1</strong></td>
+          <td>tRNA</td>
+          <td>72.0%</td>
+          <td>60.0%</td>
+          <td><span style="color:#c0392b;font-weight:bold">YES ⚠</span></td>
+          <td><span style="background:#c0392b;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PATHOGENIC</span></td>
+          <td><span style="background:#2980b9;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Confirmed</span></td>
+          <td style="font-size:11px">MELAS syndrome</td>
+          <td style="font-size:10px">Severe</td>
+        </tr><tr>
+          <td><code>m.3256C>T</code></td>
+          <td><strong>MT-TL1</strong></td>
+          <td>tRNA</td>
+          <td>68.0%</td>
+          <td>70.0%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#e67e22;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PROBABLE PATHOGENIC</span></td>
+          <td><span style="background:#8e44ad;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Probable</span></td>
+          <td style="font-size:11px">MELAS — secondary mutation</td>
+          <td style="font-size:10px">Moderate</td>
+        </tr><tr>
+          <td><code>m.3460G>A</code></td>
+          <td><strong>MT-ND1</strong></td>
+          <td>Complex I</td>
+          <td>100.0%</td>
+          <td>100.0%</td>
+          <td><span style="color:#c0392b;font-weight:bold">YES ⚠</span></td>
+          <td><span style="background:#c0392b;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PATHOGENIC</span></td>
+          <td><span style="background:#2980b9;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Confirmed</span></td>
+          <td style="font-size:11px">LHON primary mutation</td>
+          <td style="font-size:10px">Moderate</td>
+        </tr><tr>
+          <td><code>m.4216T>C</code></td>
+          <td><strong>MT-ND1</strong></td>
+          <td>Complex I</td>
+          <td>100.0%</td>
+          <td>100.0%</td>
+          <td><span style="color:#c0392b;font-weight:bold">YES ⚠</span></td>
+          <td><span style="background:#e67e22;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PROBABLE PATHOGENIC</span></td>
+          <td><span style="background:#8e44ad;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Probable</span></td>
+          <td style="font-size:11px">LHON secondary — with 11778</td>
+          <td style="font-size:10px">Mild</td>
+        </tr><tr>
+          <td><code>m.4769A>G</code></td>
+          <td><strong>MT-ND2</strong></td>
+          <td>Complex I</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">HAPLOGROUP</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.6062G>A</code></td>
+          <td><strong>MT-CO1</strong></td>
+          <td>Complex IV</td>
+          <td>34.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#7f8c8d;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PRIVATE</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.7028C>T</code></td>
+          <td><strong>MT-CO1</strong></td>
+          <td>Complex IV</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">HAPLOGROUP</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.8344A>G</code></td>
+          <td><strong>MT-TK</strong></td>
+          <td>tRNA</td>
+          <td>91.0%</td>
+          <td>85.0%</td>
+          <td><span style="color:#c0392b;font-weight:bold">YES ⚠</span></td>
+          <td><span style="background:#c0392b;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PATHOGENIC</span></td>
+          <td><span style="background:#2980b9;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Confirmed</span></td>
+          <td style="font-size:11px">MERRF syndrome</td>
+          <td style="font-size:10px">Severe</td>
+        </tr><tr>
+          <td><code>m.8860A>G</code></td>
+          <td><strong>MT-ATP6</strong></td>
+          <td>Complex V</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">HAPLOGROUP</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.8993T>G</code></td>
+          <td><strong>MT-ATP6</strong></td>
+          <td>Complex V</td>
+          <td>94.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#c0392b;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PATHOGENIC</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Review</span></td>
+          <td style="font-size:11px">Different allele at known disease position</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.9176T>C</code></td>
+          <td><strong>MT-ATP6</strong></td>
+          <td>Complex V</td>
+          <td>88.0%</td>
+          <td>95.0%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#c0392b;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PATHOGENIC</span></td>
+          <td><span style="background:#2980b9;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Confirmed</span></td>
+          <td style="font-size:11px">Leigh syndrome</td>
+          <td style="font-size:10px">Severe</td>
+        </tr><tr>
+          <td><code>m.10197G>A</code></td>
+          <td><strong>MT-ND3</strong></td>
+          <td>Complex I</td>
+          <td>62.0%</td>
+          <td>70.0%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#f1c40f;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">VUS</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Possible</span></td>
+          <td style="font-size:11px">MELAS / Leigh — rare mutation</td>
+          <td style="font-size:10px">Moderate</td>
+        </tr><tr>
+          <td><code>m.11778G>A</code></td>
+          <td><strong>MT-ND4</strong></td>
+          <td>Complex I</td>
+          <td>100.0%</td>
+          <td>100.0%</td>
+          <td><span style="color:#c0392b;font-weight:bold">YES ⚠</span></td>
+          <td><span style="background:#c0392b;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PATHOGENIC</span></td>
+          <td><span style="background:#2980b9;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Confirmed</span></td>
+          <td style="font-size:11px">LHON — Leber hereditary optic neuropathy</td>
+          <td style="font-size:10px">Moderate</td>
+        </tr><tr>
+          <td><code>m.12315G>A</code></td>
+          <td><strong>MT-DLOOP</strong></td>
+          <td>D-loop</td>
+          <td>82.0%</td>
+          <td>80.0%</td>
+          <td><span style="color:#c0392b;font-weight:bold">YES ⚠</span></td>
+          <td><span style="background:#e67e22;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PROBABLE PATHOGENIC</span></td>
+          <td><span style="background:#8e44ad;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Probable</span></td>
+          <td style="font-size:11px">Cardiomyopathy / hearing loss</td>
+          <td style="font-size:10px">Mild</td>
+        </tr><tr>
+          <td><code>m.13513G>A</code></td>
+          <td><strong>MT-ND5</strong></td>
+          <td>Complex I</td>
+          <td>78.0%</td>
+          <td>80.0%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#c0392b;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PATHOGENIC</span></td>
+          <td><span style="background:#2980b9;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Confirmed</span></td>
+          <td style="font-size:11px">MELAS / Leigh overlap</td>
+          <td style="font-size:10px">Severe</td>
+        </tr><tr>
+          <td><code>m.14832C>T</code></td>
+          <td><strong>MT-CYB</strong></td>
+          <td>Complex III</td>
+          <td>18.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#7f8c8d;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PRIVATE</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.15257G>A</code></td>
+          <td><strong>MT-CYB</strong></td>
+          <td>Complex III</td>
+          <td>88.0%</td>
+          <td>90.0%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#e67e22;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">PROBABLE PATHOGENIC</span></td>
+          <td><span style="background:#8e44ad;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Probable</span></td>
+          <td style="font-size:11px">Exercise intolerance / myopathy</td>
+          <td style="font-size:10px">Mild</td>
+        </tr><tr>
+          <td><code>m.15326A>G</code></td>
+          <td><strong>MT-CYB</strong></td>
+          <td>Complex III</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#27ae60;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">HAPLOGROUP</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr><tr>
+          <td><code>m.15885T>C</code></td>
+          <td><strong>MT-CYB</strong></td>
+          <td>Complex III</td>
+          <td>71.0%</td>
+          <td>85.0%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#f1c40f;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">VUS</span></td>
+          <td><span style="background:#8e44ad;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Probable</span></td>
+          <td style="font-size:11px">Cytochrome b deficiency</td>
+          <td style="font-size:10px">Moderate</td>
+        </tr><tr>
+          <td><code>m.16519T>C</code></td>
+          <td><strong>MT-DLOOP</strong></td>
+          <td>D-loop</td>
+          <td>100.0%</td>
+          <td>nan%</td>
+          <td><span style="color:#27ae60">No</span></td>
+          <td><span style="background:#2980b9;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">BENIGN</span></td>
+          <td><span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold">Novel</span></td>
+          <td style="font-size:11px">Not in MitoMap — novel variant</td>
+          <td style="font-size:10px">Unknown</td>
+        </tr></tbody>
+  </table>
+
+  <div class="ref">
+    <strong>Key findings:</strong><br>
+    m.3243A&gt;G (MT-TL1) at 72% heteroplasmy — above MELAS threshold (60%).
+    Most common pathogenic mtDNA variant worldwide.<br>
+    m.8344A&gt;G (MT-TK) at 91% — above MERRF threshold (85%). Causes
+    myoclonic epilepsy with ragged-red fibres.<br>
+    m.11778G&gt;A (MT-ND4) at 100% — homoplasmic LHON primary mutation.
+    Causes bilateral visual loss typically in young adults.<br>
+    m.8993T&gt;G (MT-ATP6) at 94% — above NARP threshold (90%).
+    Neurogenic weakness with ataxia and retinitis pigmentosa.<br><br>
+    <strong>Database:</strong> MitoMap (mitomap.org) — Comprehensive
+    Human Mitochondrial Genome Database.<br>
+    <strong>Reference:</strong> Gorman GS et al. (2016) Mitochondrial
+    diseases. Nature Reviews Disease Primers 2:16080.
+  </div>
+</div>
+<div class="footer">
+  Mitochondrial Variant Pipeline &nbsp;|&nbsp;
+  Farhana Sayed Portfolio — Module 3 of 3 &nbsp;|&nbsp;
+  Tools: Python · pandas · matplotlib · MitoMap database
+</div>
+</body></html>

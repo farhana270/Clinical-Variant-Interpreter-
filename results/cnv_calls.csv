@@ -1,0 +1,43 @@
+chrom,start,end,size_kb,n_windows,mean_log2,std_log2,cnv_type,estimated_cn,genes,clinical_sig
+chr20,25000,725000,700.0,15,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,775000,1275000,500.0,11,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,1325000,1975000,650.0,14,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,2025000,3275000,1250.0,26,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,3325000,5175000,1850.0,38,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,5225000,5675000,450.0,10,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,5725000,9375000,3650.0,74,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,9675000,10125000,450.0,10,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,10175000,10425000,250.0,6,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,10475000,11325000,850.0,18,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,12025000,12275000,250.0,6,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,12525000,18525000,6000.0,121,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,18575000,18925000,350.0,8,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,18975000,25175000,6200.0,125,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,25475000,29025000,3550.0,72,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,29075000,29875000,800.0,17,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,29925000,30975000,1050.0,22,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,31025000,31475000,450.0,10,-1.072,0.035,deletion,1.0,ASXL1,ASXL1: deletion of tumour suppressor — likely pathogenic
+chr20,31675000,32025000,350.0,8,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,32275000,32575000,300.0,7,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,32625000,33025000,400.0,9,-0.047,0.0,normal,1.9,DNMT3B,DNMT3B: normal — uncertain significance
+chr20,33075000,36875000,3800.0,77,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,36925000,40075000,3150.0,64,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,40125000,40425000,300.0,7,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,40725000,41175000,450.0,10,-1.157,0.059,deletion,0.9,PTPRT,PTPRT: deletion of tumour suppressor — likely pathogenic
+chr20,41225000,45425000,4200.0,85,-0.047,0.0,normal,1.9,MYBL2,MYBL2: normal — uncertain significance
+chr20,45475000,45975000,500.0,11,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,46025000,46475000,450.0,10,0.595,0.024,duplication,3.0,NCOA3,NCOA3: duplication of oncogene — likely pathogenic
+chr20,46525000,48775000,2250.0,46,-0.047,0.0,normal,1.9,PTPN1,PTPN1: normal — uncertain significance
+chr20,48825000,49775000,950.0,20,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,50025000,52975000,2950.0,60,0.797,0.027,duplication,3.5,"BCAS1, ZNF217",BCAS1: duplication of oncogene — likely pathogenic | ZNF217: duplication of oncogene — likely pathogenic
+chr20,53025000,53725000,700.0,15,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,54025000,55175000,1150.0,24,1.76,0.02,amplification,6.8,AURKA,AURKA: amplification of oncogene — likely pathogenic
+chr20,55225000,55625000,400.0,9,1.782,0.001,amplification,6.9,intergenic,no known cancer gene overlap
+chr20,55675000,55975000,300.0,7,1.743,0.008,amplification,6.7,intergenic,no known cancer gene overlap
+chr20,56025000,58025000,2000.0,41,-0.047,0.0,normal,1.9,GNAS,GNAS: normal — uncertain significance
+chr20,58225000,59075000,850.0,18,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,59525000,60025000,500.0,11,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,60325000,60575000,250.0,6,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,60625000,63575000,2950.0,60,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,63825000,64075000,250.0,6,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap
+chr20,64125000,64422083,297.1,7,-0.047,0.0,normal,1.9,intergenic,no known cancer gene overlap

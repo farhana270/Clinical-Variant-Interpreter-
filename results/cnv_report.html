@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<title>CNV Analysis Report — Farhana Sayed</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#f4f6fb;color:#1a1a2e}
+.hdr{background:linear-gradient(135deg,#1a3a5c,#0d2137);
+      color:white;padding:36px 48px}
+.hdr h1{font-size:21px;margin-bottom:6px}
+.hdr p{font-size:13px;opacity:.78}
+.body{padding:28px 48px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);
+        gap:12px;margin-bottom:24px}
+.card{background:white;border-radius:10px;padding:16px;
+       text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card .num{font-size:28px;font-weight:700}
+.card .lbl{font-size:10px;color:#888;text-transform:uppercase;
+            letter-spacing:.4px;margin-top:4px}
+h2{font-size:15px;color:#1a3a5c;border-left:4px solid #e74c3c;
+    padding-left:12px;margin:22px 0 12px}
+img{width:100%;border-radius:10px;
+     box-shadow:0 2px 10px rgba(0,0,0,.08);margin-bottom:22px}
+table{width:100%;border-collapse:collapse;font-size:12px;
+       background:white;border-radius:8px;overflow:hidden;
+       box-shadow:0 2px 8px rgba(0,0,0,.06)}
+th{background:#1a3a5c;color:white;padding:9px 10px;
+    text-align:left;font-size:11px}
+td{padding:8px 10px;border-bottom:1px solid #eee;vertical-align:middle}
+tr:nth-child(even){background:#f8f9fd}
+tr:hover{background:#eef2ff}
+code{font-size:11px;background:#eef;padding:1px 5px;border-radius:3px}
+.ref{background:white;border-radius:8px;padding:18px;
+      border-left:4px solid #1a3a5c;margin-top:16px;
+      font-size:12.5px;line-height:1.8;color:#333}
+.footer{background:#1a3a5c;color:white;text-align:center;
+         padding:16px;font-size:12px;margin-top:22px}
+</style></head><body>
+<div class="hdr">
+  <h1>Copy Number Variant Analysis Report — chr20</h1>
+  <p>Method: Log2 ratio analysis + circular binary segmentation
+     &nbsp;|&nbsp; Assembly: GRCh38
+     &nbsp;|&nbsp; Window size: 50kb
+     &nbsp;|&nbsp; Generated: 13 Apr 2026 10:31</p>
+  <p style="margin-top:5px">Author: Farhana Sayed &nbsp;|&nbsp;
+     B.Tech Bioinformatics &amp; Data Science, D.Y. Patil
+     &nbsp;|&nbsp; Module 2 of 3 — Clinical Variant Interpreter</p>
+</div>
+<div class="body">
+  <div class="cards">
+    <div class="card" style="border-top:4px solid #c0392b">
+      <div class="num" style="color:#c0392b">2</div>
+      <div class="lbl">Deletions</div>
+    </div>
+    <div class="card" style="border-top:4px solid #2980b9">
+      <div class="num" style="color:#2980b9">2</div>
+      <div class="lbl">Duplications</div>
+    </div>
+    <div class="card" style="border-top:4px solid #8e44ad">
+      <div class="num" style="color:#8e44ad">3</div>
+      <div class="lbl">Amplifications</div>
+    </div>
+    <div class="card" style="border-top:4px solid #27ae60">
+      <div class="num" style="color:#27ae60">5</div>
+      <div class="lbl">Cancer gene overlaps</div>
+    </div>
+  </div>
+
+  <h2>CNV Summary Plots</h2>
+  <img src="cnv_plots.png" alt="CNV Analysis Plots">
+
+  <h2>CNV Calls — Non-normal Segments (7 events)</h2>
+  <table>
+    <thead><tr>
+      <th>Location</th><th>Size</th><th>Windows</th>
+      <th>Log2 ratio</th><th>Est. CN</th><th>Type</th>
+      <th>Genes</th><th>Clinical significance</th>
+    </tr></thead>
+    <tbody><tr>
+          <td><code>chr20:31,025,000–31,475,000</code></td>
+          <td>450.0 kb</td>
+          <td>10</td>
+          <td style="font-weight:bold;color:#c0392b">-1.072</td>
+          <td>1.0</td>
+          <td><span style="background:#c0392b;color:white;padding:2px 9px;border-radius:10px;font-size:11px;font-weight:bold">DELETION</span></td>
+          <td><strong>ASXL1</strong></td>
+          <td style="font-size:11px">ASXL1: deletion of tumour suppressor — likely pathogenic</td>
+        </tr><tr>
+          <td><code>chr20:40,725,000–41,175,000</code></td>
+          <td>450.0 kb</td>
+          <td>10</td>
+          <td style="font-weight:bold;color:#c0392b">-1.157</td>
+          <td>0.9</td>
+          <td><span style="background:#c0392b;color:white;padding:2px 9px;border-radius:10px;font-size:11px;font-weight:bold">DELETION</span></td>
+          <td><strong>PTPRT</strong></td>
+          <td style="font-size:11px">PTPRT: deletion of tumour suppressor — likely pathogenic</td>
+        </tr><tr>
+          <td><code>chr20:46,025,000–46,475,000</code></td>
+          <td>450.0 kb</td>
+          <td>10</td>
+          <td style="font-weight:bold;color:#2980b9">0.595</td>
+          <td>3.0</td>
+          <td><span style="background:#2980b9;color:white;padding:2px 9px;border-radius:10px;font-size:11px;font-weight:bold">DUPLICATION</span></td>
+          <td><strong>NCOA3</strong></td>
+          <td style="font-size:11px">NCOA3: duplication of oncogene — likely pathogenic</td>
+        </tr><tr>
+          <td><code>chr20:50,025,000–52,975,000</code></td>
+          <td>2950.0 kb</td>
+          <td>60</td>
+          <td style="font-weight:bold;color:#2980b9">0.797</td>
+          <td>3.5</td>
+          <td><span style="background:#2980b9;color:white;padding:2px 9px;border-radius:10px;font-size:11px;font-weight:bold">DUPLICATION</span></td>
+          <td><strong>BCAS1, ZNF217</strong></td>
+          <td style="font-size:11px">BCAS1: duplication of oncogene — likely pathogenic | ZNF217: duplication of oncogene — likely pathogenic</td>
+        </tr><tr>
+          <td><code>chr20:54,025,000–55,175,000</code></td>
+          <td>1150.0 kb</td>
+          <td>24</td>
+          <td style="font-weight:bold;color:#8e44ad">1.76</td>
+          <td>6.8</td>
+          <td><span style="background:#8e44ad;color:white;padding:2px 9px;border-radius:10px;font-size:11px;font-weight:bold">AMPLIFICATION</span></td>
+          <td><strong>AURKA</strong></td>
+          <td style="font-size:11px">AURKA: amplification of oncogene — likely pathogenic</td>
+        </tr><tr>
+          <td><code>chr20:55,225,000–55,625,000</code></td>
+          <td>400.0 kb</td>
+          <td>9</td>
+          <td style="font-weight:bold;color:#8e44ad">1.782</td>
+          <td>6.9</td>
+          <td><span style="background:#8e44ad;color:white;padding:2px 9px;border-radius:10px;font-size:11px;font-weight:bold">AMPLIFICATION</span></td>
+          <td><strong>intergenic</strong></td>
+          <td style="font-size:11px">no known cancer gene overlap</td>
+        </tr><tr>
+          <td><code>chr20:55,675,000–55,975,000</code></td>
+          <td>300.0 kb</td>
+          <td>7</td>
+          <td style="font-weight:bold;color:#8e44ad">1.743</td>
+          <td>6.7</td>
+          <td><span style="background:#8e44ad;color:white;padding:2px 9px;border-radius:10px;font-size:11px;font-weight:bold">AMPLIFICATION</span></td>
+          <td><strong>intergenic</strong></td>
+          <td style="font-size:11px">no known cancer gene overlap</td>
+        </tr></tbody>
+  </table>
+
+  <div class="ref">
+    <strong>Methods:</strong><br>
+    <strong>Coverage normalisation:</strong> Median normalisation corrects
+    for differences in sequencing depth between tumour and normal samples.
+    Log2 ratio = log2(tumour_normalised / normal_normalised).<br>
+    <strong>Segmentation:</strong> Simplified circular binary segmentation
+    (CBS) using sliding-window t-tests to identify statistically significant
+    change points (p &lt; 0.01, |t| &gt; 2.0).<br>
+    <strong>CNV thresholds:</strong> Deletion log2 &lt; -0.4 |
+    Duplication log2 &gt; 0.3 |
+    Amplification log2 &gt; 1.0<br>
+    <strong>Reference:</strong> Olshen AB et al. (2004)
+    Circular binary segmentation for the analysis of array-based DNA copy
+    number data. Biostatistics 5:557–572.
+  </div>
+</div>
+<div class="footer">
+  CNV Analysis Pipeline &nbsp;|&nbsp;
+  Farhana Sayed Portfolio — Module 2 of 3 &nbsp;|&nbsp;
+  Tools: Python · numpy · pandas · scipy · matplotlib
+</div>
+</body></html>
